@@ -1,0 +1,42 @@
+{
+  "status": "DRAFT_PROPOSAL_RECONCILED_NOT_FROZEN",
+  "preprocessing_version": "1.1.0",
+  "seed": 261,
+  "arena_pairs_per_bias": 1000,
+  "ultrafeedback_prompts": 500,
+  "manual_audit_pairs": 50,
+  "independent_repeats_per_order": 2,
+  "pilot_pairs": 100,
+  "pilot_sizes": [
+    "0.6B",
+    "8B"
+  ],
+  "pilot_size_selection": "Proposal endpoints; both modes retained to satisfy newer Week 1 checklist",
+  "thinking_budget_requested": 2048,
+  "thinking_budget_verified": false,
+  "truncation_protocol": "Unresolved: do not treat a total output cap as a reasoning-only budget. Truncated responses are missing verdicts. Forced continuation requires an explicit protocol amendment.",
+  "mtbench_scope": "Human expert split; preserve full per-answer histories through the labeled turn. Multiple human annotations retained.",
+  "sampling_note": "Mode-specific Qwen model-card settings in models.json; 200-pair controls use thinking-off with thinking-on settings. 2304 max_tokens is provisional total-output guard, not fulfillment of required reasoning budget.",
+  "human_audit_complete": false,
+  "provider_compatibility_complete": false,
+  "pilot_complete": false,
+  "original_proposal_reviewed": true,
+  "proposal_sha256": "c32b096f746eb81ba0a73b35d781fe42cd42b62f45521d4f8d75f5d52d23d1a7",
+  "scope": "Full H1-H3 study plus sampling/prompt controls, local Mac data preparation and hosted inference",
+  "primary_judge_prompt": "FastChat pair-v2 with tie option removed; pinned upstream file in config/",
+  "repeat_schedule": "MM twice per order; other format cells once per order (10 requests per format pair/config)",
+  "h3_schedule": "Adaptive two semifinals and final, both orders, one generation/order (6 requests per prompt/config)",
+  "invalid_verdict_policy": "One identical-input fresh retry; terminal unparseable counts as flip in edit/noise, plus exclusion sensitivity",
+  "format_flip_policy": "Average of four one-answer strip edges, both orders; common MM repeat-noise reference",
+  "format_flip_policy_status": "Operational interpretation to freeze after pilot; proposal did not name a primary edge",
+  "h3_format_drift": "Markdown indicator of judge-selected answer minus gold-selected answer, n=4; pooled across configs",
+  "h1_threshold_points": 2,
+  "h2_smallest_effect_points": 3,
+  "unresolved_hosted_amendments": [
+    "FP16 uniform precision vs listed BF16/FP8",
+    "2048 reasoning truncation plus forced verdict",
+    "exact model revisions/backend stability",
+    "availability of 1.7B",
+    "API budget and measured cost"
+  ]
+}

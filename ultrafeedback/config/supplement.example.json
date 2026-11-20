@@ -1,0 +1,9 @@
+{
+  "repo": "lmarena-ai/arena-human-preference-140k",
+  "revision": "6322995ab34d7c2693e3f47dd13fa5caa0789a74",
+  "license": "cc-by-4.0",
+  "name": "arena_2025",
+  "split": "train",
+  "needed": false,
+  "note": "2023 already has >=1000 eligible format pairs; supplement identified but not downloaded."
+}

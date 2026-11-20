@@ -1,0 +1,7 @@
+config_id,planned_max_judgments,attempts,usable_judgments,invalid_judgments,answer_truncated,reasoning_forced_closed_attempts,generation_seconds
+qwen3-0.6b-off,150,151,150,0,0,0,280.5303062029999
+qwen3-0.6b-on,150,137,121,11,0,0,1162.0367056864995
+qwen3-1.7b-off,150,150,150,0,0,0,534.6969613467506
+qwen3-1.7b-on,150,151,150,0,0,0,1829.2217531910012
+qwen3-4b-off,150,150,150,0,0,0,1644.4711469459971
+qwen3-4b-on,150,150,150,0,0,0,4625.994628596998

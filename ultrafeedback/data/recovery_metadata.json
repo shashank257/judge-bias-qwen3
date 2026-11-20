@@ -1,0 +1,11 @@
+{
+  "signature": "ba6c0970c658070f107fd7dcf89de9530b74b1d085a95a551d838860fa34d56a",
+  "source": "/content/drive/MyDrive/DSC261_UltraFeedback/uf_midterm_25_0.6B-1.7B-4B_fp16_batch4_v2",
+  "source_event_hashes": {
+    "Qwen/Qwen3-0.6B": "2d2e5ee47238f1e29f2c725c7a39f1fa1c05bb6c2310941e4d2a36372f00b62f",
+    "Qwen/Qwen3-1.7B": "6b5412f125d17133637d22da885c4214503357a60546ba17c199ab14ca002d6f",
+    "Qwen/Qwen3-4B": "226faab2c0dee7178d3d970b01a31f1508cd2a06ba6abe6bebf2bb9538335f01"
+  },
+  "policy": "consistent_ab_anywhere_v1",
+  "note": "POST-HOC SENSITIVITY ANALYSIS, not the original strict protocol. Latest saved attempt only. Same rule for all models/modes. Explicit consistent A/B markers anywhere; conflicting labels/ties rejected. Raw source logs preserved. Remaining finals require real inference; no winners fabricated. Original strict-parser retry selection is retained, so this is not a fresh run under the relaxed protocol."
+}

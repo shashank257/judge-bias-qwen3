@@ -1,0 +1,10 @@
+model,metric,common_prompts,on_minus_off,ci_low,ci_high
+Qwen/Qwen3-0.6B,selected_quality,16,0.25,0.078125,0.453125
+Qwen/Qwen3-0.6B,regret,16,-0.25,-0.453125,-0.078125
+Qwen/Qwen3-0.6B,format_drift,16,0.0,0.0,0.0
+Qwen/Qwen3-1.7B,selected_quality,25,0.04,-0.08,0.20024999999999865
+Qwen/Qwen3-1.7B,regret,25,-0.04,-0.20024999999999998,0.08
+Qwen/Qwen3-1.7B,format_drift,25,0.0,-0.12,0.12
+Qwen/Qwen3-4B,selected_quality,25,0.08,-0.01,0.23
+Qwen/Qwen3-4B,regret,25,-0.08,-0.23,0.01
+Qwen/Qwen3-4B,format_drift,25,0.0,-0.12,0.12

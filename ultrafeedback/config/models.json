@@ -1,0 +1,266 @@
+[
+  {
+    "config_id": "qwen3-0.6b-thinking-false",
+    "checkpoint": "Qwen/Qwen3-0.6B",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "provider": "featherless",
+    "base_url": "https://api.featherless.ai/v1",
+    "key_env": "FEATHERLESS_API_KEY",
+    "thinking": false,
+    "availability_verified": false,
+    "controls_verified": false,
+    "model_revision": "UNKNOWN",
+    "precision": "UNKNOWN",
+    "sampling": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 2304,
+      "top_k": 20,
+      "min_p": 0
+    },
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "reasoning_budget_status": "UNVERIFIED: requires 2048 reasoning tokens then forced verdict; no silent total-output substitute",
+    "pricing": {
+      "input_per_million_usd": null,
+      "output_per_million_usd": null
+    },
+    "verdict_policy": "terminal_ab",
+    "invalid_verdict_retries": 1,
+    "protocol_version": "proposal-v2"
+  },
+  {
+    "config_id": "qwen3-0.6b-thinking-true",
+    "checkpoint": "Qwen/Qwen3-0.6B",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "provider": "featherless",
+    "base_url": "https://api.featherless.ai/v1",
+    "key_env": "FEATHERLESS_API_KEY",
+    "thinking": true,
+    "availability_verified": false,
+    "controls_verified": false,
+    "model_revision": "UNKNOWN",
+    "precision": "UNKNOWN",
+    "sampling": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "max_tokens": 2304,
+      "top_k": 20,
+      "min_p": 0
+    },
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": true
+      }
+    },
+    "reasoning_budget_status": "UNVERIFIED: requires 2048 reasoning tokens then forced verdict; no silent total-output substitute",
+    "pricing": {
+      "input_per_million_usd": null,
+      "output_per_million_usd": null
+    },
+    "verdict_policy": "terminal_ab",
+    "invalid_verdict_retries": 1,
+    "protocol_version": "proposal-v2"
+  },
+  {
+    "config_id": "qwen3-1.7b-thinking-false",
+    "checkpoint": "Qwen/Qwen3-1.7B",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "provider": "featherless",
+    "base_url": "https://api.featherless.ai/v1",
+    "key_env": "FEATHERLESS_API_KEY",
+    "thinking": false,
+    "availability_verified": false,
+    "controls_verified": false,
+    "model_revision": "UNKNOWN",
+    "precision": "UNKNOWN",
+    "sampling": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 2304,
+      "top_k": 20,
+      "min_p": 0
+    },
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "reasoning_budget_status": "UNVERIFIED: requires 2048 reasoning tokens then forced verdict; no silent total-output substitute",
+    "pricing": {
+      "input_per_million_usd": null,
+      "output_per_million_usd": null
+    },
+    "verdict_policy": "terminal_ab",
+    "invalid_verdict_retries": 1,
+    "protocol_version": "proposal-v2"
+  },
+  {
+    "config_id": "qwen3-1.7b-thinking-true",
+    "checkpoint": "Qwen/Qwen3-1.7B",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "provider": "featherless",
+    "base_url": "https://api.featherless.ai/v1",
+    "key_env": "FEATHERLESS_API_KEY",
+    "thinking": true,
+    "availability_verified": false,
+    "controls_verified": false,
+    "model_revision": "UNKNOWN",
+    "precision": "UNKNOWN",
+    "sampling": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "max_tokens": 2304,
+      "top_k": 20,
+      "min_p": 0
+    },
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": true
+      }
+    },
+    "reasoning_budget_status": "UNVERIFIED: requires 2048 reasoning tokens then forced verdict; no silent total-output substitute",
+    "pricing": {
+      "input_per_million_usd": null,
+      "output_per_million_usd": null
+    },
+    "verdict_policy": "terminal_ab",
+    "invalid_verdict_retries": 1,
+    "protocol_version": "proposal-v2"
+  },
+  {
+    "config_id": "qwen3-4b-thinking-false",
+    "checkpoint": "Qwen/Qwen3-4B",
+    "model_id": "Qwen/Qwen3-4B",
+    "provider": "featherless",
+    "base_url": "https://api.featherless.ai/v1",
+    "key_env": "FEATHERLESS_API_KEY",
+    "thinking": false,
+    "availability_verified": false,
+    "controls_verified": false,
+    "model_revision": "UNKNOWN",
+    "precision": "UNKNOWN",
+    "sampling": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 2304,
+      "top_k": 20,
+      "min_p": 0
+    },
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "reasoning_budget_status": "UNVERIFIED: requires 2048 reasoning tokens then forced verdict; no silent total-output substitute",
+    "pricing": {
+      "input_per_million_usd": null,
+      "output_per_million_usd": null
+    },
+    "verdict_policy": "terminal_ab",
+    "invalid_verdict_retries": 1,
+    "protocol_version": "proposal-v2"
+  },
+  {
+    "config_id": "qwen3-4b-thinking-true",
+    "checkpoint": "Qwen/Qwen3-4B",
+    "model_id": "Qwen/Qwen3-4B",
+    "provider": "featherless",
+    "base_url": "https://api.featherless.ai/v1",
+    "key_env": "FEATHERLESS_API_KEY",
+    "thinking": true,
+    "availability_verified": false,
+    "controls_verified": false,
+    "model_revision": "UNKNOWN",
+    "precision": "UNKNOWN",
+    "sampling": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "max_tokens": 2304,
+      "top_k": 20,
+      "min_p": 0
+    },
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": true
+      }
+    },
+    "reasoning_budget_status": "UNVERIFIED: requires 2048 reasoning tokens then forced verdict; no silent total-output substitute",
+    "pricing": {
+      "input_per_million_usd": null,
+      "output_per_million_usd": null
+    },
+    "verdict_policy": "terminal_ab",
+    "invalid_verdict_retries": 1,
+    "protocol_version": "proposal-v2"
+  },
+  {
+    "config_id": "qwen3-8b-thinking-false",
+    "checkpoint": "Qwen/Qwen3-8B",
+    "model_id": "Qwen/Qwen3-8B",
+    "provider": "featherless",
+    "base_url": "https://api.featherless.ai/v1",
+    "key_env": "FEATHERLESS_API_KEY",
+    "thinking": false,
+    "availability_verified": false,
+    "controls_verified": false,
+    "model_revision": "UNKNOWN",
+    "precision": "UNKNOWN",
+    "sampling": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 2304,
+      "top_k": 20,
+      "min_p": 0
+    },
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "reasoning_budget_status": "UNVERIFIED: requires 2048 reasoning tokens then forced verdict; no silent total-output substitute",
+    "pricing": {
+      "input_per_million_usd": null,
+      "output_per_million_usd": null
+    },
+    "verdict_policy": "terminal_ab",
+    "invalid_verdict_retries": 1,
+    "protocol_version": "proposal-v2"
+  },
+  {
+    "config_id": "qwen3-8b-thinking-true",
+    "checkpoint": "Qwen/Qwen3-8B",
+    "model_id": "Qwen/Qwen3-8B",
+    "provider": "featherless",
+    "base_url": "https://api.featherless.ai/v1",
+    "key_env": "FEATHERLESS_API_KEY",
+    "thinking": true,
+    "availability_verified": false,
+    "controls_verified": false,
+    "model_revision": "UNKNOWN",
+    "precision": "UNKNOWN",
+    "sampling": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "max_tokens": 2304,
+      "top_k": 20,
+      "min_p": 0
+    },
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": true
+      }
+    },
+    "reasoning_budget_status": "UNVERIFIED: requires 2048 reasoning tokens then forced verdict; no silent total-output substitute",
+    "pricing": {
+      "input_per_million_usd": null,
+      "output_per_million_usd": null
+    },
+    "verdict_policy": "terminal_ab",
+    "invalid_verdict_retries": 1,
+    "protocol_version": "proposal-v2"
+  }
+]
