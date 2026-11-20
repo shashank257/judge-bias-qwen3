@@ -9,7 +9,7 @@ on). Proposal: [`course/DSC261_Project_Proposal_G3.pdf`](course/DSC261_Project_P
 |---|---|---|
 | [`chatbot_arena/`](chatbot_arena/) | Chatbot Arena: data pipeline, judge harness, position and format bias (100 pairs x 8 judge setups, 8,000 calls) | midterm results done; run `bash chatbot_arena/scripts/reproduce_midterm.sh` |
 | [`mtbench/`](mtbench/) | MT-Bench: human agreement and sensitivity | to be added by teammate |
-| [`ultrafeedback/`](ultrafeedback/) | UltraFeedback: best-of-n selection (H3) | to be added by teammate |
+| [`ultrafeedback/`](ultrafeedback/) | UltraFeedback: best-of-n selection (H3) | Midterm pilot complete: 25 prompts, 6 Qwen3 judge configurations. [Results report](ultrafeedback/DSC261_G3_UltraFeedback_midterm_results_pack.pdf) · [Reproduce on CPU](ultrafeedback/README.md#reproduce-locally) |
 | [`course/`](course/) | proposal | shared |
 
 Each part is self-contained: open its README for setup, how to run, and results.
