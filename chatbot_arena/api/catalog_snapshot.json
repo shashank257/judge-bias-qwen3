@@ -1,0 +1,69 @@
+{
+  "openrouter": {
+    "Qwen/Qwen3-0.6B": [],
+    "Qwen/Qwen3-1.7B": [],
+    "Qwen/Qwen3-4B": [],
+    "Qwen/Qwen3-8B": []
+  },
+  "featherless": {
+    "Qwen/Qwen3-0.6B": [
+      "Qwen/Qwen3-0.6B"
+    ],
+    "Qwen/Qwen3-1.7B": [
+      "Qwen/Qwen3-1.7B"
+    ],
+    "Qwen/Qwen3-4B": [
+      "Qwen/Qwen3-4B"
+    ],
+    "Qwen/Qwen3-8B": [
+      "Qwen/Qwen3-8B"
+    ]
+  },
+  "featherless_pricing_per_M": {
+    "Qwen/Qwen3-0.6B": {
+      "in": 0.04,
+      "out": 0.08,
+      "context": 32768
+    },
+    "Qwen/Qwen3-1.7B": {
+      "in": 0.32,
+      "out": 1.5999999999999999,
+      "context": 32768
+    },
+    "Qwen/Qwen3-4B": {
+      "in": 0.39999999999999997,
+      "out": 0.7999999999999999,
+      "context": 32768
+    },
+    "Qwen/Qwen3-8B": {
+      "in": 0.117,
+      "out": 0.45499999999999996,
+      "context": 32768
+    }
+  },
+  "hf_inference_providers": {
+    "Qwen/Qwen3-0.6B": [],
+    "Qwen/Qwen3-1.7B": [],
+    "Qwen/Qwen3-4B": [],
+    "Qwen/Qwen3-8B": []
+  },
+  "deepinfra": {
+    "Qwen/Qwen3-0.6B": [],
+    "Qwen/Qwen3-1.7B": [],
+    "Qwen/Qwen3-4B": [],
+    "Qwen/Qwen3-8B": []
+  },
+  "novita": {
+    "Qwen/Qwen3-0.6B": [],
+    "Qwen/Qwen3-1.7B": [],
+    "Qwen/Qwen3-4B": [],
+    "Qwen/Qwen3-8B": []
+  },
+  "together_serverless_docs": {
+    "Qwen/Qwen3-0.6B": [],
+    "Qwen/Qwen3-1.7B": [],
+    "Qwen/Qwen3-4B": [],
+    "Qwen/Qwen3-8B": []
+  },
+  "snapshot_utc": "2026-11-03T19:38:37.944829+00:00"
+}

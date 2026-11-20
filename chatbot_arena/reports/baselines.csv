@@ -1,0 +1,7 @@
+data,baseline,n,accuracy,cohen_kappa
+arena_position_pool,random,1000,0.483,-0.035
+arena_position_pool,length_only,1000,0.579,0.157
+arena_format_pool,random,1000,0.525,0.051
+arena_format_pool,length_only,1000,0.572,0.14
+mtbench_turn1,random,1284,0.5,-0.0
+mtbench_turn1,length_only,1284,0.688,0.376

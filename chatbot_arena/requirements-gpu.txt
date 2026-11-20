@@ -1,0 +1,8 @@
+# NVIDIA GPU machines: serve the judges with vLLM, then use scripts/run_midterm_remote.py.
+vllm
+transformers
+pandas
+pyarrow
+openai
+numpy
+huggingface_hub

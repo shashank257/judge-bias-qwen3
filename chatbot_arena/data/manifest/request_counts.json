@@ -1,0 +1,31 @@
+{
+  "total_requests": 151296,
+  "by_experiment": {
+    "format": 79296,
+    "h3": 24000,
+    "position": 32000,
+    "prompt_check": 8000,
+    "sampling_check": 8000
+  },
+  "per_config_main": {
+    "0.6B-nothink": 16912,
+    "0.6B-think": 16912,
+    "1.7B-nothink": 16912,
+    "1.7B-think": 16912,
+    "4B-nothink": 16912,
+    "4B-think": 16912,
+    "8B-nothink": 16912,
+    "8B-think": 16912
+  },
+  "input_tokens_total": 193818440.0,
+  "input_tokens_by_config": {
+    "0.6B-nothink": 24280305.0,
+    "0.6B-think": 21212815.0,
+    "1.7B-nothink": 27241795.0,
+    "1.7B-think": 24174305.0,
+    "4B-nothink": 24280305.0,
+    "4B-think": 21212815.0,
+    "8B-nothink": 27241795.0,
+    "8B-think": 24174305.0
+  }
+}

@@ -1,0 +1,33 @@
+source,step,before,retained,excluded,rule
+arena2023,loaded,33000,33000,0,raw rows
+arena2023,english_label,33000,29206,3794,dataset language label is English ('English' 2023 / 'en' 2025)
+arena2023,single_turn,29206,25938,3268,exactly one user turn + one assistant reply on both sides
+arena2023,text_only_aligned,25938,25938,0,text-only content; same user prompt on both sides
+arena2023,non_missing,25938,25904,34,no empty prompt/answer
+arena2023,valid_label_non_tie,25904,18296,7608,"winner in {model_a, model_b}; ties / both-bad / invalid labels dropped"
+arena2023,different_answers,18296,18295,1,identical answers carry no preference signal
+arena2023,english_script_check,18295,18138,157,>= 95% of letters Latin in prompt and both answers (catches mixed-language replies)
+arena2023,nonzero_words,18138,18132,6,both answers have >= 1 word after marker removal
+arena2023,length_ratio_le_2,18132,9463,8669,max/min answer length in words (markdown markers not counted) <= 2
+arena2023,no_tables_or_code,9463,8327,1136,"neither answer has a table, fenced or indented code block"
+arena2023,dedup_exact,8327,8325,2,"exact duplicate (prompt, answer_a, answer_b) records removed"
+arena2025,loaded,135634,135634,0,raw rows
+arena2025,english_label,135634,71175,64459,dataset language label is English ('English' 2023 / 'en' 2025)
+arena2025,single_turn,71175,60961,10214,exactly one user turn + one assistant reply on both sides
+arena2025,text_only_aligned,60961,60961,0,text-only content; same user prompt on both sides
+arena2025,non_missing,60961,60895,66,no empty prompt/answer
+arena2025,valid_label_non_tie,60895,44299,16596,"winner in {model_a, model_b}; ties / both-bad / invalid labels dropped"
+arena2025,different_answers,44299,44289,10,identical answers carry no preference signal
+arena2025,english_script_check,44289,43089,1200,>= 95% of letters Latin in prompt and both answers (catches mixed-language replies)
+arena2025,nonzero_words,43089,43089,0,both answers have >= 1 word after marker removal
+arena2025,length_ratio_le_2,43089,25567,17522,max/min answer length in words (markdown markers not counted) <= 2
+arena2025,no_tables_or_code,25567,16141,9426,"neither answer has a table, fenced or indented code block"
+arena2025,dedup_exact,16141,16141,0,"exact duplicate (prompt, answer_a, answer_b) records removed"
+arena2023,context_fit,8325,8325,0,judge prompt <= 6000 tokens
+arena2025,context_fit,16141,16052,89,judge prompt <= 6000 tokens
+arena2023,format:md_both_strip_ok,170,169,1,markdown in both answers and both strip cleanly
+arena2025,format:md_both_strip_ok,11461,11308,153,markdown in both answers and both strip cleanly
+arena2023,position:one_per_prompt,8325,7555,770,one pair per prompt cluster (seeded)
+arena2023,format:one_per_prompt,169,167,2,one pair per prompt cluster (seeded)
+arena2025,format:prompt_not_in_2023,11308,11308,0,prompt not already used by a 2023 format pair
+arena2025,format:one_per_prompt,11308,11045,263,one pair per prompt cluster (seeded)

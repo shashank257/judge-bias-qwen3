@@ -1,0 +1,3 @@
+# Apple-silicon Macs: run the Qwen3 judges locally with MLX.
+-r requirements.txt
+mlx-lm==0.32.2

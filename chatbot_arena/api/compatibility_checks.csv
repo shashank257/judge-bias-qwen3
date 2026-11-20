@@ -1,0 +1,3 @@
+backend,size,thinking,status,verdict,has_think_close,reasoning_chars,prompt_tokens,completion_tokens,stages,latency_s
+local-mlx,0.6B,False,ok,B,False,0,258,3,1,0.61
+local-mlx,0.6B,True,ok,A,True,4386,254,908,1,8.65

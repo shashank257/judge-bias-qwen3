@@ -1,0 +1,6 @@
+=== 13:37:08 start TOKEN_BUDGET=24000 (try 0)
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 10 files:  60%|██████    | 6/10 [00:00<00:00, 30.43it/s]Fetching 10 files:  80%|████████  | 8/10 [00:20<00:00, 30.43it/s]Fetching 10 files:  90%|█████████ | 9/10 [02:38<00:22, 22.01s/it]Fetching 10 files: 100%|██████████| 10/10 [02:45<00:00, 19.50s/it]Fetching 10 files: 100%|██████████| 10/10 [02:45<00:00, 16.54s/it]
+4B-nothink: 1000 to run (max conc 16, token budget 24000)
+  attempt 0: 64/1000 (620s elapsed)
+  attempt 0: 128/1000 (1116s elapsed)

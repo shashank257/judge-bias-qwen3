@@ -1,0 +1,37 @@
+0.6B-nothink: 800/1000 to run
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 3416.35it/s]
+  0/800 verdict=B lat=1.7s
+  50/800 verdict=B lat=1.3s
+  100/800 verdict=B lat=1.0s
+  150/800 verdict=A lat=1.9s
+  200/800 verdict=B lat=2.5s
+  250/800 verdict=B lat=1.7s
+  300/800 verdict=B lat=2.3s
+  350/800 verdict=B lat=2.3s
+  400/800 verdict=B lat=1.0s
+  450/800 verdict=B lat=1.4s
+  500/800 verdict=B lat=1.8s
+  550/800 verdict=B lat=2.3s
+  600/800 verdict=B lat=4.9s
+  650/800 verdict=B lat=1.1s
+  700/800 verdict=B lat=3.8s
+  750/800 verdict=B lat=1.7s
+1.7B-nothink: 800/1000 to run
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3259.54it/s]
+  0/800 verdict=B lat=12.3s
+  50/800 verdict=B lat=4.7s
+  100/800 verdict=B lat=4.8s
+  150/800 verdict=B lat=4.9s
+  200/800 verdict=B lat=8.0s
+  250/800 verdict=A lat=7.3s
+  300/800 verdict=B lat=6.9s
+  350/800 verdict=A lat=2.9s
+  400/800 verdict=A lat=6.0s
+  450/800 verdict=A lat=6.0s
+  500/800 verdict=A lat=4.7s
+  550/800 verdict=A lat=6.8s
+  600/800 verdict=A lat=5.8s
+  650/800 verdict=A lat=3.7s
+  700/800 verdict=A lat=4.8s
+  750/800 verdict=A lat=7.2s

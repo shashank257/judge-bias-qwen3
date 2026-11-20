@@ -1,0 +1,82 @@
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 2487.72it/s]
+0.6B-nothink: 0 to run (batch 8)
+0.6B-think: 803 to run (batch 8)
+  attempt 0: 32/803 (91s elapsed)
+  attempt 0: 64/803 (190s elapsed)
+  attempt 0: 96/803 (281s elapsed)
+  attempt 0: 128/803 (369s elapsed)
+  attempt 0: 160/803 (513s elapsed)
+  attempt 0: 192/803 (609s elapsed)
+  attempt 0: 224/803 (774s elapsed)
+  attempt 0: 256/803 (866s elapsed)
+Traceback (most recent call last):
+  File "/Users/257s/dev/dsc261/scripts/run_midterm_batched.py", line 127, in <module>
+    retry += run_chunk(model, tok, size, thinking, chunk, attempt, fh)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/257s/dev/dsc261/scripts/run_midterm_batched.py", line 73, in run_chunk
+    first = gen(model, tok, prompts, J.THINK_BUDGET if thinking else J.NOTHINK_MAX_TOKENS, sampler)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/257s/dev/dsc261/scripts/run_midterm_batched.py", line 47, in gen
+    r = batch_generate(model, tok, ids, max_tokens=max_tokens, sampler=sampler, return_token_ids=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/257s/dev/dsc261/.venv/lib/python3.12/site-packages/mlx_lm/generate.py", line 1995, in batch_generate
+    while responses := gen.next_generated():
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/257s/dev/dsc261/.venv/lib/python3.12/site-packages/mlx_lm/generate.py", line 1910, in next_generated
+    prompt_responses, generation_responses = self._next()
+                                             ^^^^^^^^^^^^
+  File "/Users/257s/dev/dsc261/.venv/lib/python3.12/site-packages/mlx_lm/generate.py", line 1819, in _next
+    generation_responses = self._generation_batch.next()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/257s/dev/dsc261/.venv/lib/python3.12/site-packages/mlx_lm/generate.py", line 1478, in next
+    tokens, logprobs = self._step()
+                       ^^^^^^^^^^^^
+  File "/Users/257s/dev/dsc261/.venv/lib/python3.12/site-packages/mlx_lm/generate.py", line 1434, in _step
+    mx.async_eval(self._next_tokens, self._next_logprobs, token_context)
+RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).
+=== 17:04:26 start BATCH=6 (try 0)
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 2757.08it/s]
+0.6B-nothink: 0 to run (batch 6)
+0.6B-think: 547 to run (batch 6)
+  attempt 0: 24/547 (98s elapsed)
+  attempt 0: 48/547 (282s elapsed)
+  attempt 0: 72/547 (357s elapsed)
+  attempt 0: 96/547 (458s elapsed)
+  attempt 0: 120/547 (528s elapsed)
+  attempt 0: 144/547 (613s elapsed)
+  attempt 0: 168/547 (706s elapsed)
+=== 17:17:34 start TOKEN_BUDGET=36000 (try 0)
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 2214.52it/s]
+0.6B-nothink: 0 to run (max conc 16, token budget 36000)
+0.6B-think: 379 to run (max conc 16, token budget 36000)
+  attempt 0: 64/379 (124s elapsed)
+  attempt 0: 128/379 (315s elapsed)
+  attempt 0: 192/379 (487s elapsed)
+  attempt 0: 256/379 (753s elapsed)
+  attempt 0: 320/379 (1333s elapsed)
+=== 17:40:00 start TOKEN_BUDGET=24000 (try 0)
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 2470.14it/s]
+0.6B-nothink: 0 to run (max conc 16, token budget 24000)
+0.6B-think: 59 to run (max conc 16, token budget 24000)
+  attempt 0: 59/59 (553s elapsed)
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 462.06it/s]
+1.7B-nothink: 34 to run (max conc 16, token budget 24000)
+  attempt 0: 34/34 (762s elapsed)
+1.7B-think: 940 to run (max conc 16, token budget 24000)
+  attempt 0: 64/940 (1188s elapsed)
+  attempt 0: 128/940 (1623s elapsed)
+  attempt 0: 192/940 (2032s elapsed)
+  attempt 0: 256/940 (2572s elapsed)
+  attempt 0: 320/940 (3204s elapsed)
+  attempt 0: 384/940 (3625s elapsed)
+  attempt 0: 448/940 (4300s elapsed)
+  attempt 0: 512/940 (5008s elapsed)
+  attempt 0: 576/940 (5591s elapsed)
+  attempt 0: 640/940 (6479s elapsed)
+  attempt 0: 704/940 (7370s elapsed)
+  attempt 0: 768/940 (8342s elapsed)
+  attempt 0: 832/940 (9245s elapsed)
+  attempt 0: 896/940 (10511s elapsed)
+  attempt 0: 940/940 (11521s elapsed)
+midterm done
+=== finished

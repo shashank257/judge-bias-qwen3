@@ -1,0 +1,47 @@
+{
+  "frozen_utc": "2026-11-03T19:32:56.130183+00:00",
+  "seed": 261,
+  "pipeline": "week1-v1.0",
+  "strip_version": "strip-v1.0",
+  "arena2023_source": "arena2023_mirror",
+  "files": {
+    "position_pool": {
+      "rows": 1000,
+      "sha256": "e9affa62bcf15208937d5621da1274a59d295e7e43dd9574a8329b2613d7e513"
+    },
+    "position_reserve": {
+      "rows": 200,
+      "sha256": "fce31761120061dce55d3e527857aeeb3501b2ab010d2d42f787c9533c26f521"
+    },
+    "format_pool": {
+      "rows": 1000,
+      "sha256": "b430046d54b33613301aed746c99cea34d71411e2d667a0c841a8ae988275f32"
+    },
+    "format_reserve": {
+      "rows": 198,
+      "sha256": "3ff5db52182ddd2caf887634d956ac2691851391dce48125cee92ae0cec13ce7"
+    },
+    "pilot_pairs": {
+      "rows": 100,
+      "sha256": "f2f0168ca7f68aaddb6fa2b9e48f4bd4b4fbc9351b572c51d5d60fe55260a7d2"
+    },
+    "arena_eligible_2023": {
+      "rows": 8325,
+      "sha256": "aeb8096edff9ca686a924308c9af6c39ee5b073d1c6e81ae81ff5c20ec878729"
+    },
+    "arena_eligible_2025": {
+      "rows": 16052,
+      "sha256": "e6e79f337d60716dd96415164a2d26ab9c1f2520138fab979b66d050890db626"
+    }
+  },
+  "audit_replacements": {
+    "removed": [
+      "arena2025:2ed04deb-e7f1-4d0e-9a97-1cf46c02d4f3",
+      "arena2025:3cfa1dc3-e45f-4822-9cb4-54d83eea4568"
+    ],
+    "added_from_reserve": [
+      "arena2025:3c6a074d-a903-462d-a2f8-bb9c56d01620",
+      "arena2025:fa43e470-6bcc-4d4a-ac7d-1e547102e125"
+    ]
+  }
+}

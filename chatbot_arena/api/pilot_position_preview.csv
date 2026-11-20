@@ -1,0 +1,5 @@
+config,pairs_both_orders_valid,position_flip_rate,share_verdicts_slot1
+0.6B-nothink,100,0.87,0.065
+0.6B-think,30,0.533,0.3
+1.7B-nothink,100,0.53,0.745
+1.7B-think,30,0.333,0.633

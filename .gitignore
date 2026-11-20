@@ -1,0 +1,14 @@
+# repository-wide
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.env
+
+# local reference copies of teammates' files (never commit)
+others work/
+
+# each part keeps its own .gitignore inside its folder (e.g. chatbot_arena/.gitignore)

@@ -1,0 +1,11 @@
+source,step,before,retained,excluded,rule
+mtbench,loaded,3355,3355,0,human judgments (all turns)
+mtbench,turn_1_only,3355,1689,1666,single-turn: verdicts about the first answer only
+mtbench,non_tie,1689,1284,405,ties dropped (judge has no tie option)
+ultrafeedback,loaded,39878,39878,0,sharegpt + ultrachat + evol_instruct files only
+ultrafeedback,source_allowed,39878,39878,0,"source field in {sharegpt, ultrachat, evol_instruct}; no TruthfulQA-derived prompts"
+ultrafeedback,four_completions,39878,39877,1,exactly four answers
+ultrafeedback,four_usable_answers,39877,39628,249,"four non-empty, distinct responses"
+ultrafeedback,all_16_ratings,39628,36019,3609,all four fine-grained ratings present (1-5) for all four answers; 'N/A' -> prompt excluded
+ultrafeedback,english_script,36019,35747,272,>= 95% Latin letters in prompt and all answers
+ultrafeedback,context_fit,35747,35746,1,longest possible comparison <= 6000 tokens

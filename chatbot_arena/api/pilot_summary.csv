@@ -1,0 +1,5 @@
+log,config,requests,invalid_rate,retry_rate,truncation_rate,latency_mean_s,latency_p90_s,prompt_tok_mean,completion_tok_mean,completion_tok_p90,think_tok_mean
+pilot_local,0.6B-nothink,200,0.0,0.0,0.0,1.934,3.073,1813.41,105.75,144.0,
+pilot_local,0.6B-think,60,0.0,0.0,0.0,5.312,7.983,1469.0,471.3,676.5,388.467
+pilot_local,1.7B-nothink,200,0.0,0.0,0.0,5.996,9.459,1813.41,164.28,256.1,
+pilot_local,1.7B-think,60,0.0,0.0,0.033,17.29,22.818,1469.0,632.667,865.1,529.017

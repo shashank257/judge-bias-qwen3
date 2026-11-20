@@ -1,0 +1,7 @@
+vllm
+transformers
+pandas
+pyarrow
+openai
+numpy
+huggingface_hub

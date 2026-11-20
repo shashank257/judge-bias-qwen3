@@ -1,0 +1,15 @@
+=== 03:55:12 start TOKEN_BUDGET=24000 (try 0)
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 2109.66it/s]
+0.6B-nothink: 1000 to run (max conc 16, token budget 24000)
+  attempt 0: 64/1000 (32s elapsed)
+  attempt 0: 128/1000 (69s elapsed)
+  attempt 0: 192/1000 (115s elapsed)
+  attempt 0: 256/1000 (164s elapsed)
+  attempt 0: 320/1000 (220s elapsed)
+  attempt 0: 384/1000 (276s elapsed)
+  attempt 0: 448/1000 (343s elapsed)
+  attempt 0: 512/1000 (411s elapsed)
+  attempt 0: 576/1000 (487s elapsed)
+  attempt 0: 640/1000 (570s elapsed)
+  attempt 0: 704/1000 (667s elapsed)
+  attempt 0: 768/1000 (848s elapsed)

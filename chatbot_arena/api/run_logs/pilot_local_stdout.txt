@@ -1,0 +1,63 @@
+0.6B-nothink: 200/200 to run
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 4635.32it/s]
+  0/200 verdict=B lat=1.3s out_tok=75
+  20/200 verdict=B lat=1.5s out_tok=121
+  40/200 verdict=B lat=1.9s out_tok=117
+  60/200 verdict=B lat=2.2s out_tok=120
+  80/200 verdict=B lat=2.5s out_tok=107
+  100/200 verdict=B lat=1.5s out_tok=81
+  120/200 verdict=A lat=1.4s out_tok=101
+  140/200 verdict=B lat=2.3s out_tok=103
+  160/200 verdict=B lat=3.1s out_tok=107
+  180/200 verdict=B lat=1.5s out_tok=116
+1.7B-nothink: 200/200 to run
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 9 files:  67%|██████▋   | 6/9 [00:00<00:00, 54.30it/s]Fetching 9 files:  78%|███████▊  | 7/9 [00:10<00:00, 54.30it/s]Fetching 9 files:  89%|████████▉ | 8/9 [01:27<00:14, 14.09s/it]Fetching 9 files: 100%|██████████| 9/9 [03:13<00:00, 31.25s/it]Fetching 9 files: 100%|██████████| 9/9 [03:13<00:00, 21.45s/it]
+  0/200 verdict=A lat=13.8s out_tok=228
+  20/200 verdict=A lat=6.9s out_tok=207
+  40/200 verdict=A lat=8.3s out_tok=232
+  60/200 verdict=A lat=12.5s out_tok=327
+0.6B-nothink: 0/200 to run
+1.7B-nothink: 121/200 to run
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 4466.78it/s]
+  0/121 verdict=A lat=5.1s out_tok=161
+  20/121 verdict=B lat=9.2s out_tok=260
+0.6B-nothink: 0/200 to run
+1.7B-nothink: 90/200 to run
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 4295.98it/s]
+  0/90 verdict=A lat=2.9s out_tok=3
+  20/90 verdict=A lat=7.6s out_tok=228
+  40/90 verdict=A lat=6.2s out_tok=3
+  60/90 verdict=A lat=4.3s out_tok=127
+  80/90 verdict=B lat=10.3s out_tok=211
+0.6B-think: 60/60 to run
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 2741.89it/s]
+  0/60 verdict=B lat=6.9s out_tok=423
+  20/60 verdict=B lat=5.0s out_tok=486
+  40/60 verdict=B lat=7.7s out_tok=652
+1.7B-think: 60/60 to run
+  0/60 verdict=B lat=16.5s out_tok=689
+  20/60 verdict=A lat=18.2s out_tok=702
+  40/60 verdict=A lat=25.0s out_tok=937
+pilot done
+0.6B-nothink: 0/200 to run
+1.7B-nothink: 0/200 to run
+0.6B-think: 140/200 to run
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 3841.94it/s]
+  0/140 verdict=A lat=4.1s out_tok=250
+  20/140 verdict=A lat=4.1s out_tok=281
+  40/140 verdict=A lat=4.7s out_tok=432
+  60/140 verdict=A lat=2.5s out_tok=256
+0.6B-nothink: 0/200 to run
+1.7B-nothink: 0/200 to run
+0.6B-think: 71/200 to run
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 3252.84it/s]
+  0/71 verdict=B lat=11.2s out_tok=937
+  20/71 verdict=A lat=3.1s out_tok=271
+  40/71 verdict=A lat=3.8s out_tok=372
+  60/71 verdict=B lat=3.7s out_tok=366

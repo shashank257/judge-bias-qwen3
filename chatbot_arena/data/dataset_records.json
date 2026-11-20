@@ -1,0 +1,106 @@
+{
+  "arena2023_mirror": {
+    "key": "arena2023_mirror",
+    "hf_repo": "agie-ai/lmsys-chatbot_arena_conversations",
+    "revision": "d45bf836ec5a09d8a98881b4ae16347ffb6aae9b",
+    "license": "mirror of lmsys/chatbot_arena_conversations (same terms)",
+    "files": [
+      {
+        "path": "data/raw/arena2023_mirror/data/train-00000-of-00001-f4a410a7274a9509.parquet",
+        "sha256": "c105c2abd35ca21257620b8fa7215e43d47cebd0bdfcd9c900b15508989fb76e",
+        "bytes": 41572997
+      }
+    ],
+    "n_rows": 33000,
+    "downloaded_utc": "2026-11-03",
+    "note": "2023 Chatbot Arena human-preference conversations (main pool)"
+  },
+  "arena2025": {
+    "key": "arena2025",
+    "hf_repo": "lmarena-ai/arena-human-preference-140k",
+    "revision": "6322995ab34d7c2693e3f47dd13fa5caa0789a74",
+    "license": "CC-BY-4.0",
+    "files": [
+      {
+        "path": "data/raw/arena2025/data/train-00000-of-00007.parquet",
+        "sha256": "7b871a964dc9b238fe0d59f817dbe1a7a56934e23ec4d989f86e6891e5a891cf",
+        "bytes": 231962042
+      },
+      {
+        "path": "data/raw/arena2025/data/train-00001-of-00007.parquet",
+        "sha256": "0cd29a6e3261159f41a69b28cd7f08c0bbbc1ef08ba18438d386a1b0c144af8a",
+        "bytes": 232661776
+      },
+      {
+        "path": "data/raw/arena2025/data/train-00002-of-00007.parquet",
+        "sha256": "c633264fe8f0fa26cc9aa49961a75dc428791f70c7a476cbed766963b88bee24",
+        "bytes": 230389901
+      },
+      {
+        "path": "data/raw/arena2025/data/train-00003-of-00007.parquet",
+        "sha256": "5bcf04c9f4488006a4a7ee944d886ee123e118b7f7d2db04b4ff6dbd8125e6b0",
+        "bytes": 230215643
+      },
+      {
+        "path": "data/raw/arena2025/data/train-00004-of-00007.parquet",
+        "sha256": "2c50b4b3f6a5c02d660f5a70d5006332ddc00f5eb21f8e4d92bde3856647969b",
+        "bytes": 229291118
+      },
+      {
+        "path": "data/raw/arena2025/data/train-00005-of-00007.parquet",
+        "sha256": "de59f74dce7477beaec55936b31a88537b93c5cbb4b483cfc6879a6862ce5e3b",
+        "bytes": 231971298
+      },
+      {
+        "path": "data/raw/arena2025/data/train-00006-of-00007.parquet",
+        "sha256": "1a32a1c6934ebcaa3019643a08fb57563ee0a9be282d3222def3c572a49e9f4c",
+        "bytes": 227311927
+      }
+    ],
+    "n_rows": 135634,
+    "downloaded_utc": "2026-11-03",
+    "note": "2025 Arena release (supplement for the format pool)"
+  },
+  "mtbench_human": {
+    "key": "mtbench_human",
+    "hf_repo": "lmsys/mt_bench_human_judgments",
+    "revision": "f7d2896d2cc5d80f8b55c2bbc722613555233c25",
+    "license": "CC-BY-4.0",
+    "files": [
+      {
+        "path": "data/raw/mtbench_human/data/human-00000-of-00001-25f4910818759289.parquet",
+        "sha256": "4877bc46a40929f4082c3c79593700fb897b1d6c7f4c473032694a01322f5769",
+        "bytes": 738612
+      }
+    ],
+    "n_rows": 3355,
+    "downloaded_utc": "2026-11-03",
+    "note": "MT-Bench human (expert) pairwise votes"
+  },
+  "ultrafeedback": {
+    "key": "ultrafeedback",
+    "hf_repo": "openbmb/UltraFeedback",
+    "revision": "40b436560ca83a8dba36114c22ab3c66e43f6d5e",
+    "license": "MIT",
+    "files": [
+      {
+        "path": "data/raw/ultrafeedback/sharegpt.jsonl",
+        "sha256": "f0b7ef2bf54d100acb056646c2993c5f66429ee6d621e2e19105041aa271ef4c",
+        "bytes": 313011927
+      },
+      {
+        "path": "data/raw/ultrafeedback/ultrachat.jsonl",
+        "sha256": "1955e9268ae30eeb414068c2fe482def21a76cbfa6b0a63f4319a8ab19f900ff",
+        "bytes": 182387783
+      },
+      {
+        "path": "data/raw/ultrafeedback/evol_instruct.jsonl",
+        "sha256": "1845a636816a6e713ca8f508372d4386cb82c8864b047da89c57ed9d1e3fa76a",
+        "bytes": 168443113
+      }
+    ],
+    "n_rows": 39878,
+    "downloaded_utc": "2026-11-03",
+    "note": "UltraFeedback: sharegpt, ultrachat, evol_instruct files"
+  }
+}

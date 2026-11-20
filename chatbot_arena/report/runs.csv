@@ -1,0 +1,9 @@
+config,size,thinking,calls,invalid,retried,truncated,out_tokens_mean,think_tokens_mean
+0.6B-nothink,0.6B,False,1000,0,0,0,105.43,
+0.6B-think,0.6B,True,1000,0,0,6,440.084,365.682
+1.7B-nothink,1.7B,False,1000,0,0,0,175.031,
+1.7B-think,1.7B,True,1000,0,0,12,567.348,477.17
+4B-q8-nothink,4B,False,1000,0,0,0,219.669,
+4B-q8-think,4B,True,1000,0,0,9,612.287,566.397
+8B-awq-nothink,8B,False,1000,0,0,0,203.449,
+8B-awq-think,8B,True,1000,0,0,7,623.582,591.989

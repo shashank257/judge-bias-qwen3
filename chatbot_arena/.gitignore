@@ -1,0 +1,36 @@
+# environments / caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# large or regenerable data (rebuilt by notebooks/01_data_prep.ipynb)
+data/raw/
+data/processed/arena_eligible_2023.parquet
+data/processed/arena_eligible_2025.parquet
+models/
+
+# LaTeX build leftovers
+report/_build/
+*.aux
+*.out
+*.log
+
+# bundles / duplicates of repo content
+share/*.zip
+share/submission_folder/
+share/DSC261_G3_midterm_paper_draft_unused.pdf
+
+# private infrastructure notes (server / Tailscale names)
+remote_8b/handoff_for_qa_claude/
+
+# teammates' files kept locally for reference only (never commit)
+others work/
+
+# full-text originals of gated Arena-2023 data (restore: scripts/restore_arena2023_text.py)
+data/private/
+
+# teammates own the MT-Bench and UltraFeedback parts; their data stays out of this repo
+data/processed/mtbench_*.parquet
+data/processed/uf_*.parquet
