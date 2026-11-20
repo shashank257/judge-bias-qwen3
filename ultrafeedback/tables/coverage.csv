@@ -1,0 +1,7 @@
+config_id,planned_prompts,strict_snapshot_complete_prompts,recovered_complete_prompts,valid_semifinals,invalid_semifinals,valid_finals,pending_requests
+qwen3-0.6b-off,25,0,25,100,0,50,0
+qwen3-0.6b-on,25,2,16,89,11,32,0
+qwen3-1.7b-off,25,23,25,100,0,50,0
+qwen3-1.7b-on,25,2,25,100,0,50,0
+qwen3-4b-off,25,0,25,100,0,50,0
+qwen3-4b-on,25,0,25,100,0,50,0

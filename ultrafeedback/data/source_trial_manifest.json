@@ -1,0 +1,27 @@
+{
+  "status": "READY_TO_RUN_NO_MODEL_JUDGMENTS_YET",
+  "sample_size": 25,
+  "seed": 261,
+  "sample_hash": "7ffa008594d6a1ac47b398fa0c146376555aa1eb2f38c616d9b7412d2f0d000c",
+  "parent_pool_hash": "2245dce74dd0c7c95c2db8ac64f7092e0498c3efdb2a99db96740a345a019213",
+  "sources": {
+    "ultrachat": 6,
+    "sharegpt": 12,
+    "evol_instruct": 7
+  },
+  "without_gpt4_candidates": 15,
+  "dataset": "openbmb/UltraFeedback",
+  "dataset_revision": "40b436560ca83a8dba36114c22ab3c66e43f6d5e",
+  "models": {
+    "Qwen/Qwen3-0.6B": "c1899de289a04d12100db370d81485cdf75e47ca",
+    "Qwen/Qwen3-1.7B": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "Qwen/Qwen3-4B": "1cfa9a7208912126459214e8b04321603b3df60c"
+  },
+  "configurations": 6,
+  "planned_model_judgments": 900,
+  "max_with_one_invalid_retry_each": 1800,
+  "scope": "Midterm pilot only; 25 prompts, 0.6B/1.7B/4B, thinking off/on; no 8B or Arena work.",
+  "teammate_alignment": "Only the results PDF was available; frozen teammate UF inputs and code have not been matched.",
+  "quality_labels": "Mean of four GPT-4 fine-grained ratings; not human ratings.",
+  "selection": "Seeded selection from existing 500: 12 ShareGPT, 7 Evol-Instruct, 6 UltraChat; no selection on judge outcomes."
+}

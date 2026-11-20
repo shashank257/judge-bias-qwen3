@@ -1,0 +1,5 @@
+[
+  {"name":"arena_2023","repo":"lmsys/chatbot_arena_conversations","revision":"1b6335d42a1d2c7e34870c905d03ab964f7f2bd8","split":"train"},
+  {"name":"mtbench","repo":"lmsys/mt_bench_human_judgments","revision":"f7d2896d2cc5d80f8b55c2bbc722613555233c25","split":"human"},
+  {"name":"ultrafeedback","repo":"openbmb/UltraFeedback","revision":"40b436560ca83a8dba36114c22ab3c66e43f6d5e","split":"train","data_files":["sharegpt.jsonl","ultrachat.jsonl","evol_instruct.jsonl"]}
+]
