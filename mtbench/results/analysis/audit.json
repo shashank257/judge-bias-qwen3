@@ -1,0 +1,116 @@
+[
+  {
+    "config": "0.6B OFF",
+    "valid_unique": 310,
+    "missing": 0,
+    "overlap_conflicts": 0,
+    "source_counts": [
+      [
+        "qwen3-0.6b_matched31_off_fp16.jsonl",
+        310,
+        310
+      ]
+    ]
+  },
+  {
+    "config": "0.6B ON",
+    "valid_unique": 310,
+    "missing": 0,
+    "overlap_conflicts": 0,
+    "source_counts": [
+      [
+        "qwen3_06b_matched31_on_local.jsonl",
+        310,
+        310
+      ]
+    ]
+  },
+  {
+    "config": "1.7B OFF",
+    "valid_unique": 310,
+    "missing": 0,
+    "overlap_conflicts": 0,
+    "source_counts": [
+      [
+        "qwen3-1.7b_matched31_off_fp16.jsonl",
+        310,
+        310
+      ]
+    ]
+  },
+  {
+    "config": "1.7B ON",
+    "valid_unique": 306,
+    "missing": 4,
+    "overlap_conflicts": 0,
+    "source_counts": [
+      [
+        "qwen3-1.7b_matched31_on_temp06_top095_seeded_v2_fp16.jsonl",
+        310,
+        306
+      ]
+    ]
+  },
+  {
+    "config": "4B OFF",
+    "valid_unique": 310,
+    "missing": 0,
+    "overlap_conflicts": 0,
+    "source_counts": [
+      [
+        "qwen3_4b_instruct_matched31_off.jsonl",
+        310,
+        310
+      ]
+    ]
+  },
+  {
+    "config": "4B ON",
+    "valid_unique": 310,
+    "missing": 0,
+    "overlap_conflicts": 0,
+    "source_counts": [
+      [
+        "qwen3_4b_matched31_on_consolidated.jsonl",
+        310,
+        310
+      ]
+    ]
+  },
+  {
+    "config": "8B OFF",
+    "valid_unique": 310,
+    "missing": 0,
+    "overlap_conflicts": 0,
+    "source_counts": [
+      [
+        "qwen3_8b_50_native_off.jsonl",
+        500,
+        500
+      ]
+    ]
+  },
+  {
+    "config": "8B ON",
+    "valid_unique": 310,
+    "missing": 0,
+    "overlap_conflicts": 0,
+    "source_counts": [
+      [
+        "qwen3_8b_50_on_4096_ctx8192.jsonl",
+        301,
+        283
+      ],
+      [
+        "qwen3_8b_matched31_on_recovery.jsonl",
+        7,
+        2
+      ],
+      [
+        "qwen3-8b_matched31_on_nf4_sampled_recovery.jsonl",
+        25,
+        25
+      ]
+    ]
+  }
+]
