@@ -1,0 +1,7 @@
+config_id,recorded_attempts,recorded_attempt1,valid_latest,invalid_latest,truncated_latest,relaxed_valid_but_fails_strict_format,recorded_forced_closes,recorded_generation_hours
+qwen3-0.6b-off,3045,150,2978,6,4,2786,0,1.4686359160615317
+qwen3-0.6b-on,3182,356,2818,74,10,1996,53,9.899985101297284
+qwen3-1.7b-off,2992,2,2987,0,5,18,0,2.8125689743879843
+qwen3-1.7b-on,3050,146,2964,10,4,1943,57,11.574365617719927
+qwen3-4b-off,3000,0,2999,0,1,4,0,9.173536759359447
+qwen3-4b-on,2998,0,2996,0,2,20,114,40.62846786695858

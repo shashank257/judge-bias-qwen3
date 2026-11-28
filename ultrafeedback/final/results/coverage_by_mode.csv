@@ -1,0 +1,7 @@
+config_id,semifinals_saved,semifinals_valid,semifinals_pending,finals_eligible,finals_saved,finals_valid,finals_pending,valid_brackets,planned_brackets
+qwen3-0.6b-off,2000,1991,0,988,988,987,0,493,500
+qwen3-0.6b-on,2000,1938,0,902,902,880,0,429,500
+qwen3-1.7b-off,2000,1995,0,992,992,992,0,496,500
+qwen3-1.7b-on,2000,1988,0,978,978,976,0,487,500
+qwen3-4b-off,2000,2000,0,1000,1000,999,0,499,500
+qwen3-4b-on,2000,1999,0,998,998,997,0,498,500
