@@ -1,4 +1,10 @@
-# UltraFeedback midterm pilot (H3)
+# UltraFeedback final study (H3)
+
+The final study evaluated 500 prompts with Qwen3 0.6B, 1.7B and 4B in both thinking modes. Across 2,902 usable tournaments the mean Markdown drift was -0.76 percentage points (95% prompt-cluster interval -3.24 to +1.76).
+
+[Final PDF](final/DSC261_G3_UltraFeedback_Final.pdf) · [Complete reproducibility ZIP](final/UltraFeedback_Final.zip) · [Run the CPU replay in Colab](https://colab.research.google.com/github/shashank257/judge-bias-qwen3/blob/main/ultrafeedback/final/REPRODUCE_RESULTS.ipynb) · [Editable final results](final/REPORT.md)
+
+## Earlier midterm pilot (H3)
 
 We tested best-of-4 selection on 25 prompts with Qwen3 0.6B, 1.7B and 4B in both thinking modes. Five modes completed all 25 prompts. The 0.6B thinking-on mode completed 16. Markdown drift averaged +14.18 percentage points across 141 completed tournaments (95% prompt-cluster interval -6.52 to +34.03). This pilot leaves H3 unresolved.
 
